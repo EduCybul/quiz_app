@@ -1,17 +1,10 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'start_screen.dart';
+import 'quiz.dart';
 
 
 void main () {
-  runApp(const MaterialApp(
-      home: Scaffold(
-            body: StartScreen(),
-          ),
-          ),
-        );
-  {
-
-  }
+  runApp(Quiz());
 
 }
 
